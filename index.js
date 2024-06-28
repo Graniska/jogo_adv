@@ -1,5 +1,5 @@
 
-    let aleatorio = Math.floor(Math.random() * 20)
+    let aleatorio = Math.floor(Math.random() * 100) + 101
     console.log("Adivinhe numero. Você possui: (4 tentativas)")
     let palpite = ""
     let tentativas = 3
@@ -21,7 +21,7 @@
                     "\n ==> Um novo número foi gerado, tente novamente."
                 ) 
             tentativas = 3
-              aleatorio = Math.floor(Math.random() * 10 )
+              aleatorio = Math.floor(Math.random() * 100 ) + 101
             
             }
                  
